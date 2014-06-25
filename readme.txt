@@ -11,7 +11,10 @@ Sanitize file names and enhance security.
 
 == Description ==
 
-Empty spaces and special characters can create some problems. This plugin remove latin special characters used in file name.
+Empty spaces and special characters can create some problems.
+
+= Feature =
+* Remove latin special characters used in file name.
 
 == Installation ==
 
@@ -23,6 +26,7 @@ Empty spaces and special characters can create some problems. This plugin remove
 1. Activate the plugin
 2. File with special characters
 3. File name sanitized in Media Library
+4. File name sanitized in Media Library (zoom)
 
 == Frequently Asked Questions ==
 
