@@ -14,6 +14,7 @@ Sanitize file names and enhance security.
 Empty spaces and special characters can create some problems.
 
 = Feature =
+
 * Remove latin special characters used in file name.
 
 == Installation ==
