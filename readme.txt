@@ -1,6 +1,6 @@
 === WP Sanitize File Name Plus ===
 Contributors: Yslo
-Tags: admin, core, uploads, images, image, custom, security, sanitization
+Tags: admin, core, uploads, images, image, custom, security, sanitization, media
 Requires at least: 3.0
 Tested up to: 3.9
 Stable tag: 1.0.0
