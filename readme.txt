@@ -1,9 +1,9 @@
 === WP Sanitize File Name Plus ===
 Contributors: Yslo
-Tags: admin, core, uploads, images, image, custom, security, sanitization, media
+Tags: admin, core, uploads, images, image, custom, security, sanitization, media, lowercase, filename
 Requires at least: 3.0
 Tested up to: 3.9
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -13,9 +13,10 @@ Sanitize file names and enhance security.
 
 Empty spaces and special characters can create some problems.
 
-= Feature =
+= Features =
 
-* Remove latin special characters used in file name.
+* Remove latin special characters used in file name
+* Make file name lowercase
 
 == Installation ==
 
@@ -35,6 +36,9 @@ Empty spaces and special characters can create some problems.
 * Filtering file name doesn't work with Firefox on MacOS.
 
 == Changelog ==
+
+= 1.0.1 =
+* Make file name lowercase
 
 = 1.0.0 =
 * Initial version
