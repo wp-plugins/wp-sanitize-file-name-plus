@@ -11,12 +11,12 @@ Sanitize file names and enhance security.
 
 == Description ==
 
-Empty spaces and special characters can create some problems.
+Empty spaces and special characters can create some problems. This plugin santize filename on new media files uploads.
 
 = Features =
 
-* Remove latin special characters used in file name
-* Make file name lowercase
+* Remove latin special characters used in filename
+* Make filename lowercase
 
 == Installation ==
 
