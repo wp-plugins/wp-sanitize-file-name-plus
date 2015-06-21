@@ -2,8 +2,8 @@
 Contributors: Yslo
 Tags: admin, core, uploads, images, image, custom, security, sanitization, media, filename
 Requires at least: 3.0
-Tested up to: 4.0
-Stable tag: 1.0.1
+Tested up to: 4.2
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -11,12 +11,12 @@ Sanitize file names and enhance security.
 
 == Description ==
 
-Empty spaces and special characters can create some problems. This plugin santize filename on new media files uploads.
+Empty spaces and special characters can create some problems.
 
 = Features =
 
-* Remove latin special characters used in filename
-* Make filename lowercase
+* Remove latin special characters used in file name
+* Make file name lowercase
 
 == Installation ==
 
@@ -30,12 +30,10 @@ Empty spaces and special characters can create some problems. This plugin santiz
 3. File name sanitized in Media Library
 4. File name sanitized in Media Library (zoom)
 
-== Frequently Asked Questions ==
-
-= Firefox / MacOS =
-* Filtering file name doesn't work with Firefox on MacOS.
-
 == Changelog ==
+
+= 1.0.2 =
+* Fix : Firefox/MacOS
 
 = 1.0.1 =
 * Make file name lowercase
