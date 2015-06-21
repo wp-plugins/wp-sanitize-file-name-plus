@@ -1,14 +1,10 @@
 <?php
-/**
- * @package wp-sanitize-file-name-plus
- * @version 1.0.1
- */
 /*
 Plugin Name: WP Sanitize file name Plus
 Plugin URI: http://wordpress.org/plugins/wp-sanitize-file-name-plus/
 Description: This plugin remove latin special characters used in file name.
 Author: Yslo
-Version: 1.0.1
+Version: 1.0.2
 Author URI: http://profiles.wordpress.org/yslo/
 */
 
@@ -92,7 +88,7 @@ class WP_Sanitize_File_Name_Plus
 
 		$sanitized_filename = remove_accents($sanitized_filename);
 		
-		$sanitized_filename = strtolower($sanitized_filename);
+		$sanitized_filename = preg_replace('/[^a-zA-Z0-9-_\.]/', '', strtolower($sanitized_filename));
 
 		return $sanitized_filename;
 	}
